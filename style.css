@@ -1,0 +1,44 @@
+colors {
+    color: #E6D7CC;
+    color: #E1BA7B;
+
+    color: #EED093;
+    color: #F2DBA6;
+    color: #F5E8CA;
+
+    color: #F6F5E8;
+}
+
+body {
+    
+    color: #777777;
+
+    background-color : #E6D7CC;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+	font-family: "jenna";
+	src: url('JennaSue.ttf');
+}
+
+/* #file_input {
+
+    display: none;
+} */
+
+.holder {
+    width: 100%;
+    height: 100%;
+    /* height: 750px; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#folio {
+    width: 500px;
+    text-align: center;
+}

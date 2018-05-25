@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+    <title>Chrono</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+
+    <!-- <script language="javascript" type="text/javascript" src="js/p5.js"></script>
+	<script language="javascript" type="text/javascript" src="js/addons/p5.sound.js"></script>  -->
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+
+	<script language="javascript" type="text/javascript" src="scripts.js"></script>
+
+</head>
+<body>
+
+
+    <div class="holder">
+
+        <button onclick="chrono.play()">Play</button>
+        <button onclick="chrono.pause()">Pause</button>
+        <button onclick="chrono.stop()">Stop</button>
+
+    
+        <!-- <button onclick="displayTime(chrono.timeElapsed())">Display Time</button> -->
+
+        
+    </div>
+    <div class="holder">
+        Clock Time : 
+        <div id="clocktime-container"></div>        
+    </div>
+    <div class="holder">
+        Real Time : 
+        <div id="realtime-container"></div>        
+    </div>
+
+</body>
+</html>
